@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.header-btn {
+  margin-top: 3%;
+  text-align: right;
+}
+
+.header-btn .sign-in {
+  border: 2px solid #73C650;
+  color: #73C650;
+  border-radius: 25px;
+  padding: 7px 15px 7px 17px;
+}
+
+.header-btn .sign-in:hover {
+  background-color: #73C650;
+  color: white;
+}
+
+.header-btn a {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.header-logo {
+  margin-top: 16%;
+}
+
+.header-logo .btn-start {
+  background-image: -webkit-gradient(linear, left top, right top, from(#429321), to(#b4ec51));
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding: 13px 47px 11px;
+  margin: 1% 0 20%;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  letter-spacing: 1.33px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.header-logo .btn-start:hover {
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex-justify {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 4.211%;
+}
+
+.flex-item i {
+  font-size: 48px;
+}
+
+.flex-item p {
+  letter-spacing: -0.07px;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.header-text {
+  font-style: italic;
+  letter-spacing: -0.03px;
+  padding-top: 4%;
+  margin-bottom: 2.5%;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.content-today {
+  padding: 5.2% 0 0;
+  -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content-today .btn-start {
+  background-image: -webkit-gradient(linear, left top, right top, from(#429321), to(#b4ec51));
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding: 13px 47px 11px;
+  margin: 1% 0 20%;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  letter-spacing: 1.33px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.content-today .btn-start:hover {
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-title {
+  max-height: 63px;
+  margin: -5px 0 15px;
+}
+
+.content-title i {
+  font-size: 36px;
+  padding: 18px 19px 0 0;
+}
+
+.content-title p {
+  letter-spacing: -0.09pt;
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+.text-content {
+  font-size: 12px;
+}
+
+.para-content {
+  line-height: 24px;
+  text-align: justify;
+  padding-top: 22px;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.content-daily {
+  padding: 5.2% 0 0;
+}
+
+.content-daily .btn-start {
+  background-image: -webkit-gradient(linear, left top, right top, from(#429321), to(#b4ec51));
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding: 13px 47px 11px;
+  margin: 1% 0 20%;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  letter-spacing: 1.33px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.content-daily .btn-start:hover {
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-infor {
+  background-image: -webkit-gradient(linear, left top, right top, from(#429321), to(#b4ec51));
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  color: white;
+  padding: 5.6% 0;
+}
+
+.content-infor .circle {
+  border-radius: 100px;
+  width: 107px;
+  height: 107px;
+  border: 2.5px solid white;
+  font-size: 36px;
+}
+
+.content-infor .small-circle {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  border: 2.5px solid white;
+  font-size: 24px;
+  background-color: #7CB342;
+  margin-top: -15px;
+}
+
+.customer-item {
+  margin: 5% 0 4%;
+}
+
+.detail {
+  margin-top: 16px;
+}
+
+.detail p {
+  overflow: hidden;
+  height: 50px;
+  text-align: justify;
+  line-height: 24px;
+  -webkit-margin-after: unset;
+          margin-block-end: unset;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.detail i {
+  color: #73C650;
+  margin-right: 19px;
+}
+
+.our-customer {
+  background-image: url("../img/rectangle3.png");
+  color: white;
+}
+
+.our-customer h1 {
+  padding: 5% 0 3.5%;
+  letter-spacing: -0.09px;
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+.customer {
+  letter-spacing: -0.03px;
+}
+
+.customer p {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.customer span {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.customer img {
+  padding-top: 10px;
+}
+
+.customer:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.customer:hover .customer-text {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.carousel-indicators {
+  margin-bottom: -20px;
+}
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100%;
+  margin: 0 11px !important;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+}
+
+.carousel-inner {
+  padding: 0 2%;
+}
+
+.quote {
+  width: 85%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.quote i {
+  font-size: 72px;
+  opacity: 0.4;
+}
+
+.quote p {
+  margin-top: 40px;
+  letter-spacing: -0.03px;
+  padding: 0 26px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+footer {
+  background-color: #39474E;
+  padding: 2.2% 0 2%;
+}
+
+footer .col-footer ul {
+  list-style-type: none;
+}
+
+footer .col-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+footer .col-footer i {
+  color: #73C650;
+  padding-top: 65px;
+  font-size: 13px;
+}
+
+footer .col-footer .col-title {
+  color: #73C650;
+  padding-bottom: 14px;
+  font-size: 13px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
